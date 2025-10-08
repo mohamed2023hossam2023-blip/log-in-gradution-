@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sign In</title>
+  <title>Sign up</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -26,11 +26,11 @@
       <h1>recurring</h1>
       <h3>sign up </h3>
 
-      <form>
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="password" placeholder="Password" required>
-        <button type="submit">Sign Up</button>
+      <form id="signupForm">
+  <input id="fullName" type="text" placeholder="Full Name" required>
+  <input id="email" type="email" placeholder="Email" required>
+  <input id="password" type="password" placeholder="Password" required>
+  <button type="submit">Sign Up</button>
       </form>
             <div class="social-login">
         <p>or</p>
@@ -55,5 +55,6 @@
     </div>
   </section>
 
+  <script src="signup.js"></script>
 </body>
 </html>
